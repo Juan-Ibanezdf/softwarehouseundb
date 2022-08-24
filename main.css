@@ -107,3 +107,124 @@ header > .container {
   width: 31rem;
   border-radius: 8px;
 }
+.time-softwarehouse {
+  margin-top: 3.5rem;
+}
+
+.time-softwarehouse .cards {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin: 2rem;
+}
+.time-softwarehouse .cards .card {
+  border: 5px solid #3bc9c9;
+  width: 300px;
+  height: 400px;
+  margin: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.time-softwarehouse .cards .card img {
+  border-radius: 50%;
+  border: 5px solid #3bc9c9;
+  width: 160px;
+  height: 160px;
+  padding: 3.7px;
+}
+
+.time-softwarehouse .cards .card h3 {
+  color: #3bc9c9;
+  margin-top: 3.5rem;
+}
+
+.time-softwarehouse .cards .card span {
+  color: #3bc9c9;
+  margin: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.time-softwarehouse .cards .card .social-midia-card ul {
+  display: flex;
+  flex-direction: row;
+}
+.time-softwarehouse .cards .card .social-midia-card ul li {
+  align-items: stretch;
+}
+
+.time-softwarehouse .cards .card .social-midia-card ul li img {
+  width: 2rem;
+  height: 2rem;
+  border: 0;
+  border-radius: 0;
+}
+
+.time-softwarehouse .control {
+  display: flex;
+  margin: 2rem;
+  justify-content: center;
+  align-items: center;
+}
+
+.portfolio .cards {
+  display: flex;
+  justify-content: center;
+  margin: 0 2rem;
+}
+.portfolio .cards .card {
+  width: 400px;
+  height: 400px;
+  margin: 0 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.portfolio .cards .card img {
+  border: none;
+  width: 100%;
+}
+.portfolio .cards .card .header {
+  border: 4px solid #3bc9c9;
+}
+
+.portfolio .button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.portfolio .button button {
+  margin: 2rem;
+  margin-top: 2rem;
+  width: 288px;
+  height: 44px;
+  background-color: #ff2ab2;
+  color: #fff;
+  border-radius: 8px;
+}
+
+footer {
+  margin-top: 1rem;
+  display: flex;
+
+  justify-content: space-between;
+}
+footer .logos {
+  margin-top: 1.5rem;
+}
+
+footer .social-midia {
+  justify-content: end;
+  margin-bottom: 1rem;
+}
+footer p {
+  padding-top: 0.5rem;
+  color: #6f6c90;
+  text-align: right;
+}
